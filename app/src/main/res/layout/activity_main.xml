@@ -30,7 +30,7 @@
                 android:layout_height="50dp"
                 android:layout_alignParentEnd="true"
                 android:layout_centerInParent="true"
-                android:src="@drawable/ic_profile" />
+                android:src="@drawable/baseline_dehaze_24" />
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -49,7 +49,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="HALO Kader PDI"
+                    android:text="HALO (Var Nama)"
                     android:textColor="@color/white"
                     android:textSize="26sp"
                     android:textStyle="bold" />
@@ -129,7 +129,7 @@
                             android:backgroundTint="@color/white"
                             android:backgroundTintMode="add"
                             android:padding="6dp"
-                            android:text="Pesan Tiket"
+                            android:text="lihat detail"
                             android:textColor="@color/primary"
                             android:textSize="12sp"
                             android:textStyle="bold"
@@ -185,7 +185,7 @@
                             android:backgroundTint="@color/white"
                             android:backgroundTintMode="add"
                             android:padding="6dp"
-                            android:text="Pesan Tiket"
+                            android:text="lihat detail"
                             android:textColor="@color/primary"
                             android:textSize="12sp"
                             android:textStyle="bold"
@@ -198,7 +198,7 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="end|center"
                         android:padding="12dp"
-                        android:src="@drawable/menara"/>
+                        android:src="@drawable/menaraa"/>
 
                 </androidx.cardview.widget.CardView>
 
@@ -239,7 +239,7 @@
                             android:backgroundTint="@color/white"
                             android:backgroundTintMode="add"
                             android:padding="6dp"
-                            android:text="Pesan Tiket"
+                            android:text="lihat detail"
                             android:textColor="@color/primary"
                             android:textSize="12sp"
                             android:textStyle="bold"

@@ -19,17 +19,17 @@ class MainActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         binding.btnTiketBTR.setOnClickListener {
-            val intent = Intent(this,InputDataActivity::class.java)
+            val intent = Intent(this,DetailActivity2::class.java)
             startActivity(intent)
             finish()
         }
         binding.btnTiketMTR.setOnClickListener {
-            val intent = Intent(this,InputDataActivity::class.java)
+            val intent = Intent(this,DetailActivity3::class.java)
             startActivity(intent)
             finish()
         }
         binding.btnTiketMKB.setOnClickListener {
-            val intent = Intent(this,InputDataActivity::class.java)
+            val intent = Intent(this,DetailActivity4::class.java)
             startActivity(intent)
             finish()
         }
@@ -38,10 +38,5 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent)
             finish()
         }
-
-
-
-
-
     }
 }
